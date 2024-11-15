@@ -42,7 +42,7 @@ const LoginPage = ({ handleOnChange, email, password, handleLogin, switchToReset
       <Row>
         <Col>
           <hr />
-          <a href="#reset" onClick={switchToResetPassword}>Forgot Password?</a> {/* Switch to Reset Password */}
+          <a href="#reset" onClick={switchToResetPassword}>Forgot Password?</a>
         </Col>
       </Row>
     </Container>

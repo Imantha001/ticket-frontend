@@ -1,6 +1,6 @@
 import React, { Children } from 'react';
-import { Header } from './half/header.component'; // Corrected import
-import { Footer } from './half/footer.component'; // Corrected import
+import { Header } from './half/header.component';
+import { Footer } from './half/footer.component';
 
 export const DefaultLayout = ({children}) => {
   return (

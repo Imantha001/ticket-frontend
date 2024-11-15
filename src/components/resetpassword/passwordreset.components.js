@@ -32,7 +32,7 @@ const ResetPassword = ({ handleOnChange, email, handleLogin, switchToLogin }) =>
       <Row>
         <Col>
           <hr />
-          <a href="#login" onClick={switchToLogin}>Back to Login</a> {/* Switch back to Login */}
+          <a href="#login" onClick={switchToLogin}>Back to Login</a>
         </Col>
       </Row>
     </Container>
