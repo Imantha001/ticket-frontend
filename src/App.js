@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import { Entry } from './pages/entry/Entry.page';
+import { DefaultLayout } from './layout/defaultlayout'; // Corrected import
 
 function App() {
   return (
     <div className="App">
-      <Entry />
+      <DefaultLayout>Dashboard</DefaultLayout>
     </div>
   );
 }
