@@ -1,6 +1,6 @@
 import React from 'react';
 import { Navbar, Nav } from "react-bootstrap";
-import logo from "../../assests/img/CineClick.png";
+import logo from "../../assests/img/TicketVibe.png";
 
 export const Header = () => {
   return (
