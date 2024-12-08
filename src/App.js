@@ -5,6 +5,7 @@ import { DashboardPage } from "./pages/dashboard/dashboardpage";
 
 import { Entry } from "./pages/entry/Entry.page";
 import { AddTicket } from './pages/newTicket/AddTicketPage';
+import { Ticketlists } from './pages/ticketLists/Ticketlists.page';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       {/* <Entry/> */}
       <DefaultLayout>
         {/* <DashboardPage /> */}
-        <AddTicket />
+        {/* <AddTicket /> */}
+        <Ticketlists/>
       </DefaultLayout>
     </div>
   );

@@ -54,8 +54,6 @@ export const AddTicketForm = ({handleOnSubmit,handleOnChange}) => {
                 className="italic-placeholder"
               />
             </Form.Group>
-
-
             <hr />
             <div className='centered-button'>
               <Button type="submit"  className="centered-button">Submit</Button>          
