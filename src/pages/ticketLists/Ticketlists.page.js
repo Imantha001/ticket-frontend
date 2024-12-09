@@ -4,6 +4,8 @@ import { BreadcrumbComponent } from '../../components/breadcrumb/breadcrumcompon
 import { SearchForm } from '../../components/searchForm/SearchComponenet';
 import { TicketTable } from '../../components/tickettable/ticketTableComponent';
 import  tickets  from "../../assests/data/tickets.json";
+import { Link } from "react-router-dom";
+
 
 export const Ticketlists = () => {
   const [str, setStr] = useState('');
@@ -37,7 +39,9 @@ export const Ticketlists = () => {
         </Col>
         
         <Col>
+        <Link to="/add-ticket">
           <Button variant="info">Add New Ticket</Button>
+          </Link>
         </Col>
 
         <Col className="text-right">

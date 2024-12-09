@@ -18,6 +18,7 @@ export const AddTicketForm = ({handleOnSubmit,handleOnChange}) => {
                 className="italic-placeholder"
                 required
               />
+              
             </Form.Group>
             <Form.Group>
               <Form.Label className="loginleft">Date</Form.Label>
