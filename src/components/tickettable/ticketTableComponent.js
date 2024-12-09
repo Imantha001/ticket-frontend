@@ -2,13 +2,15 @@ import React from 'react';
 import { Table } from "react-bootstrap";
 import  PropTypes  from "prop-types";
 
-export const TicketTable = ({ tickets }) => {
+export const 
+TicketTable = ({ tickets }) => {
   return (
     <Table>
       <thead>
         <tr>
           <th>#</th>
           <th>Movie Name</th>
+          <th>Price</th>
           <th>No. of Tickets</th>
           <th>Date</th>
           <th>Seats Number</th>
@@ -19,6 +21,7 @@ export const TicketTable = ({ tickets }) => {
           <tr key={index}>
             <td>{row.id}</td>
             <td>{row.Name}</td>
+            <td>{row.Price}</td>
             <td>{row.Tickets}</td>
             <td>{row.Date}</td>
             <td>{row.Seats}</td>

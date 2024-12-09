@@ -29,11 +29,11 @@ export const DashboardPage = () => {
       </Row>
 
       <Row>
-        <Col className="text-center mt-4">
-          <div>Total Tickets: 50</div>
-          <div>Pending Tickets: 5</div>
-          <div>Booked Tickets: {tickets.length}</div>
-        </Col>
+      <Col className="text-center mt-4">
+        <div>Total Tickets: 50</div>
+        <div>Remaining Tickets: {50 - tickets.length}</div>
+        <div>Booked Tickets: {tickets.length}</div>
+      </Col>
       </Row>
 
       <Row>

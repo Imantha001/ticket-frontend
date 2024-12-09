@@ -2,15 +2,34 @@
     {
         "id": 1,
         "Name": "Amaran",
+        "Price": "100",
         "Tickets":"2",
         "Date": "2024-11-20",
-        "Seats": "4,5"
+        "Seats": "4,5",
+                    "history": [
+                {
+                    "date": "24-11-21",
+                    "message": "..................",
+                    "messageBy": "Customer :-"
+                },
+                {
+                    "date": "   24-11-21",
+                    "message": ".............",
+                    "messageBy": "-: Admin"
+                },
+                {
+                    "date": "24-11-21",
+                    "message": "................",
+                    "messageBy": "Customer :-"
+                }
+                ]
 
     },
 
     {
         "id": 2,
         "Name": "Pushpa",
+        "Price": "100",
         "Tickets":"5",
         "Date": "2024-11-20",
         "Seats": "4,5,6,7,8"
@@ -20,6 +39,7 @@
     {
         "id": 3,
         "Name": "Kanguva",
+        "Price": "100",
         "Tickets":"8",
         "Date": "2024-11-20",
         "Seats": "3,4,5,6,7,8,9,10"
@@ -29,6 +49,7 @@
     {
         "id": 4,
         "Name": "Devara",
+        "Price": "100",
         "Tickets":"1",
         "Date": "2024-11-20",
         "Seats": "11"
@@ -38,6 +59,7 @@
     {
         "id": 5,
         "Name": "Amaran",
+        "Price": "100",
         "Tickets":"3",
         "Date": "2024-11-20",
         "Seats": "4,5,6"
@@ -47,9 +69,62 @@
     {
         "id": 6,
         "Name": "Raayan",
+        "Price": "100",
+        "Tickets":"2",
+        "Date": "2024-11-20",
+        "Seats": "4,5"
+
+    },
+
+    {
+        "id": 7,
+        "Name": "Raayan",
+        "Price": "100",
+        "Tickets":"2",
+        "Date": "2024-11-20",
+        "Seats": "4,5"
+
+    },
+
+    {
+        "id": 8,
+        "Name": "Raayan",
+        "Price": "100",
+        "Tickets":"2",
+        "Date": "2024-11-20",
+        "Seats": "4,5"
+
+    },
+
+    {
+        "id": 9,
+        "Name": "Raayan",
+        "Price": "100",
+        "Tickets":"2",
+        "Date": "2024-11-20",
+        "Seats": "4,5"
+
+    },
+
+    {
+        "id": 10,
+        "Name": "Raayan",
+        "Price": "100",
+        "Tickets":"2",
+        "Date": "2024-11-20",
+        "Seats": "4,5"
+
+    },
+
+    {
+        "id": 11,
+        "Name": "Raayan",
+        "Price": "100",
         "Tickets":"2",
         "Date": "2024-11-20",
         "Seats": "4,5"
 
     }
+
+    
 ]
