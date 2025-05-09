@@ -30,7 +30,24 @@ This project is a ticket management system built using React. It allows users to
    ```bash
    npm start
 
-The app will be available at http://localhost:3000.
+The app will be available at http://localhost:3000
 
+## Scripts
+
+- **`npm start`**: Runs the app in development mode.
+- **`npm run build`**: Builds the app for production.
+- **`npm test`**: Launches the test runner.
+- **`npm run eject`**: Ejects the app configuration (use with caution).
+
+## Dependencies
+
+The project uses the following key dependencies:
+
+- **React**: A frontend library for building user interfaces.
+- **React Router**: For routing and navigation within the app.
+- **Bootstrap**: A framework for responsive design and styling.
+- **React-Bootstrap**: Bootstrap components specifically for React.
+- **Prop-Types**: Used for type-checking React props.
+- **Redux Toolkit**: A library for efficient state management.
 
 
